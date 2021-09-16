@@ -41,5 +41,5 @@ jobs:
         with:
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/example_TEM_analysis:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/example_TEM_analysis:${{ steps.release.outputs.releasetag }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/example_tem_analysis:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/example_tem_analysis:${{ steps.release.outputs.releasetag }}
