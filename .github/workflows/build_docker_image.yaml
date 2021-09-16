@@ -13,7 +13,7 @@ jobs:
       - name: Get the latest tag
         id: release
         run: |
-          echo "::set-output name=releasetag::$(curl -s https://api.github.com/repos/USERNAME/REPONAME/releases/latest | jq '.tag_name' | sed 's/\"//g')"
+          echo "::set-output name=releasetag::$(curl -s https://api.github.com/repos/Tommaso-Pincelli/testbigmax/releases/latest | jq '.tag_name' | sed 's/\"//g')"
 
       - name: Checkout the repo on this tag
         uses: actions/checkout@v2
