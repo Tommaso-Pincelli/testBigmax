@@ -1,0 +1,1 @@
+Jupyter notebook creting a segmentation of TEM measurement including 2 domains and a grain boundary.
